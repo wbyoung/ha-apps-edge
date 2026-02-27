@@ -1,5 +1,5 @@
 ---
-channel: stable
+channel: edge
 apps:
   external_logs:
     repository: wbyoung/ha-external-logs

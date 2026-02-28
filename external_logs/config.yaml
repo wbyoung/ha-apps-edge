@@ -1,13 +1,12 @@
 name: External Logs
 description: Write logs to external storage
 url: https://github.com/wbyoung/ha-external-logs
-version: 3c06f95
+version: cf32260
 slug: external_logs
 arch:
 - amd64
 - aarch64
 init: false
-image: ghcr.io/wbyoung/ha-external-logs/{arch}
 journald: true
 options:
   directory: null
@@ -17,3 +16,4 @@ schema:
 map:
 - type: share
   read_only: false
+image: ghcr.io/wbyoung/external_logs

@@ -1,4 +1,11 @@
 # Changelog since v1.0.1
+- Merge pull request #5 from wbyoung/cleanup-config
+
+Cleanup config 
+- Remove unnecessary quotes 
+- Remove image from config
+
+The repository updater sets this 
 - Merge pull request #4 from wbyoung/fix-image
 
 Fix image URL 

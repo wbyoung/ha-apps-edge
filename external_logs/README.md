@@ -27,7 +27,7 @@ directory: /share/my_nas
 
 [![Add app repository to Home Assistant.][supervisor-add-badge]][supervisor-add-link]
 
-[version-shield]: https://img.shields.io/badge/version-60934a6-blue.svg
+[version-shield]: https://img.shields.io/badge/version-715bb4b-blue.svg
 [releases]: https://github.com/wbyoung/ha-external-logs/releases
 [issue]: https://github.com/wbyoung/ha-external-logs/issues
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg

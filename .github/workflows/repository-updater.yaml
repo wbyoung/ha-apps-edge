@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Repository Updater
-        uses: hassio-addons/repository-updater@v2.0.1
+        uses: wbyoung/ha-addon-repository-updater@main
         with:
           app: ${{ github.event.client_payload.app }}
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
+          email: bot@addons.community

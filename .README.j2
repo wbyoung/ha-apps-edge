@@ -1,21 +1,29 @@
-# Home Assistant Apps
+# Home Assistant Apps{% if channel == "beta" %} (BETA){% elif channel == "edge" %} (EDGE){% endif %}
 
 ![Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
-[![Github Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA)][gh-sponsors]
+[![Github Sponsors][gh-sponsors-shield]][gh-sponsors]
 
 ## About
 
-Home Assistant allows anyone to create app repositories to share their
-apps for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant apps for your installation.
+{% if channel == "edge" %}
+**Warning**: _This repository contains edge builds. They are based on the latest
+development version and may not work as expected._
+{% endif %}
+{% if channel == "beta" %}
+**Warning**: _This repository contains beta builds. They may not have been
+tested as well as the stable versions._
+{% endif %}
+
+Home Assistant allows the creation of app repositories to facilitate the sharing
+of custom apps. This is one such repository.
 
 ## Installation
 
-[![Add app repository to Home Assistant.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps)
+[![Add app repository to Home Assistant.][supervisor-add-badge]][supervisor-add-link]
 
-In the Home Assistant app store, a possibility to add a repository is provided.
-Use the button above or the following URL to add this repository:
+In the Home Assistant app store, you can add custom repositories. Use the button
+above or the following URL to add this repository:
 
 ```txt
 {{ repo }}
@@ -24,7 +32,7 @@ Use the button above or the following URL to add this repository:
 ## Apps provided by this repository
 
 {% for addon in addons %}
-### &#10003; [{{ addon.name }}][addon-{{ addon.target }}]
+### [{{ addon.name }}][addon-{{ addon.target }}]
 
 ![Latest Version][{{ addon.target }}-version-shield]
 ![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
@@ -59,6 +67,9 @@ Please open an issue on the appropriate GitHub repository for an app.
 {% endif %}
 {% endfor %}
 {% endfor %}
+[supervisor-add-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[supervisor-add-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps
 [license-shield]: https://img.shields.io/github/license/{{ name }}.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
+[gh-sponsors-shield]: https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA
 [gh-sponsors]: https://github.com/sponsors/wbyoung

@@ -43,6 +43,12 @@ Please open an issue on the appropriate GitHub repository for an app.
 
 - [Open an issue for the app: External Logs][external_logs-issue]
 
+## Thanks
+
+Special thanks to @frenck for the
+[app repository auto-updates][repository-updater].
+
+
 [addon-external_logs]: https://github.com/wbyoung/ha-external-logs/tree/cf32260
 [addon-doc-external_logs]: https://github.com/wbyoung/ha-external-logs/blob/cf32260/README.md
 [external_logs-issue]: https://github.com/wbyoung/ha-external-logs/issues
@@ -58,3 +64,4 @@ Please open an issue on the appropriate GitHub repository for an app.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [gh-sponsors-shield]: https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA
 [gh-sponsors]: https://github.com/sponsors/wbyoung
+[repository-updater]: https://github.com/hassio-addons/repository-updater

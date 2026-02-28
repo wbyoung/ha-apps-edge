@@ -54,6 +54,12 @@ Please open an issue on the appropriate GitHub repository for an app.
 - [Open an issue for the app: {{ addon.name }}][{{ addon.target }}-issue]
 {% endfor %}
 
+## Thanks
+
+Special thanks to @frenck for the
+[app repository auto-updates][repository-updater].
+
+
 {% for addon in addons %}
 [addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
 [addon-doc-{{ addon.target}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
@@ -73,3 +79,4 @@ Please open an issue on the appropriate GitHub repository for an app.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [gh-sponsors-shield]: https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA
 [gh-sponsors]: https://github.com/sponsors/wbyoung
+[repository-updater]: https://github.com/hassio-addons/repository-updater

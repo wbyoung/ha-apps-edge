@@ -1,3 +1,6 @@
+# Portions of code copyright 2017-2026 Franck Nijhof
+# See hassio-addons/repository, hassio-addons/workflows
+---
 name: CI
 
 on:

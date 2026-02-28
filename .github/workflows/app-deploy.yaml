@@ -177,7 +177,7 @@ jobs:
       - information
       - deploy
     environment:
-      name: ${{ needs.information.outputs.environment }}
+      name: edge
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch repository updater update signal
@@ -203,7 +203,7 @@ jobs:
       - information
       - deploy
     environment:
-      name: ${{ needs.information.outputs.environment }}
+      name: beta
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch repository updater update signal
@@ -227,7 +227,7 @@ jobs:
       - information
       - deploy
     environment:
-      name: ${{ needs.information.outputs.environment }}
+      name: stable
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch repository updater update signal

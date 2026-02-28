@@ -53,7 +53,9 @@ Please open an issue on the appropriate GitHub repository for an app.
 [external_logs-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [external_logs-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [supervisor-add-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[supervisor-add-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps-edge[license-shield]: https://img.shields.io/github/license/wbyoung/ha-apps-edge.svg
+[supervisor-add-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps-edge
+
+[license-shield]: https://img.shields.io/github/license/wbyoung/ha-apps-edge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [gh-sponsors-shield]: https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA
 [gh-sponsors]: https://github.com/sponsors/wbyoung

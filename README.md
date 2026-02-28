@@ -27,10 +27,10 @@ https://github.com/wbyoung/ha-apps-edge
 ### [External Logs][addon-external_logs]
 
 ![Latest Version][external_logs-version-shield]
-![Supports armhf Architecture][external_logs-armhf-shield]
-![Supports armv7 Architecture][external_logs-armv7-shield]
 ![Supports aarch64 Architecture][external_logs-aarch64-shield]
 ![Supports amd64 Architecture][external_logs-amd64-shield]
+![Supports armhf Architecture][external_logs-armhf-shield]
+![Supports armv7 Architecture][external_logs-armv7-shield]
 ![Supports i386 Architecture][external_logs-i386-shield]
 
 Write logs to external storage

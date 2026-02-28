@@ -49,10 +49,10 @@ Special thanks to [**@frenck**](https://github.com/frenck) for the
 [app repository auto-updates][repository-updater].
 
 
-[addon-external_logs]: https://github.com/wbyoung/ha-external-logs/tree/cf32260
-[addon-doc-external_logs]: https://github.com/wbyoung/ha-external-logs/blob/cf32260/README.md
+[addon-external_logs]: https://github.com/wbyoung/ha-external-logs/tree/17a8981
+[addon-doc-external_logs]: https://github.com/wbyoung/ha-external-logs/blob/17a8981/README.md
 [external_logs-issue]: https://github.com/wbyoung/ha-external-logs/issues
-[external_logs-version-shield]: https://img.shields.io/badge/version-cf32260-blue.svg
+[external_logs-version-shield]: https://img.shields.io/badge/version-17a8981-blue.svg
 [external_logs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [external_logs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [external_logs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

@@ -1,4 +1,8 @@
-# Changelog since v1.0.1
+# Changelog since v1.0.2
+- Merge pull request #6 from wbyoung/fix-shield
+
+Fix shields for beta versions 
+- Fix shields for beta versions 
 - Merge pull request #5 from wbyoung/cleanup-config
 
 Cleanup config 

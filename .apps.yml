@@ -4,4 +4,4 @@ apps:
   external_logs:
     repository: wbyoung/ha-external-logs
     target: external_logs
-    image: ghcr.io/wbyoung/ha-external-logs/{arch}
+    image: ghcr.io/wbyoung/external_logs

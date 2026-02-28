@@ -1,7 +1,7 @@
 name: External Logs
 description: Write logs to external storage
 url: https://github.com/wbyoung/ha-external-logs
-version: 715bb4b
+version: 3c06f95
 slug: external_logs
 arch:
 - amd64

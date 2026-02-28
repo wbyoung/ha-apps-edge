@@ -1,4 +1,4 @@
-# Home Assistant Apps{% if channel == "beta" %} (BETA){% elif channel == "edge" %} (EDGE){% endif %}
+# Home Assistant Apps{% if channel == "beta" %} :sparkles: BETA{% elif channel == "edge" %} :rocket: EDGE{% endif %}
 
 ![Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
@@ -68,7 +68,7 @@ Please open an issue on the appropriate GitHub repository for an app.
 {% endfor %}
 {% endfor %}
 [supervisor-add-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[supervisor-add-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps
+[supervisor-add-link]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwbyoung%2Fha-apps{% if channel != "stable" %}-{{ channel }}{% endif %}
 [license-shield]: https://img.shields.io/github/license/{{ name }}.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [gh-sponsors-shield]: https://img.shields.io/badge/GitHub%20Sponsors-grey?&logo=GitHub-Sponsors&logoColor=EA4AAA

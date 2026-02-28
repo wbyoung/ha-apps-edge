@@ -43,10 +43,10 @@ Please open an issue on the appropriate GitHub repository for an app.
 
 - [Open an issue for the app: External Logs][external_logs-issue]
 
-[addon-external_logs]: https://github.com/wbyoung/ha-external-logs/tree/038ae73
-[addon-doc-external_logs]: https://github.com/wbyoung/ha-external-logs/blob/038ae73/README.md
+[addon-external_logs]: https://github.com/wbyoung/ha-external-logs/tree/60934a6
+[addon-doc-external_logs]: https://github.com/wbyoung/ha-external-logs/blob/60934a6/README.md
 [external_logs-issue]: https://github.com/wbyoung/ha-external-logs/issues
-[external_logs-version-shield]: https://img.shields.io/badge/version-038ae73-blue.svg
+[external_logs-version-shield]: https://img.shields.io/badge/version-60934a6-blue.svg
 [external_logs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [external_logs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [external_logs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

@@ -1,3 +1,5 @@
-- Merge pull request #2 from wbyoung/separate-repo
+# Changelog since v1.0.1
+- Merge pull request #3 from wbyoung/fix-build-shield
 
-Setup for deployment to separate repository
+Fix build shield 
+- Fix build shield 
